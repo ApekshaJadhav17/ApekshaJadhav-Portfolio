@@ -16,7 +16,7 @@ import vships from './vShips.svg'
 import chanak from './chanak.png'
 import linkto from './linkto.png'
 import amaya from './amaya.png'
-import Honeybees from './Honeybees.png'
+// import Honeybees from './Honeybees.png'
 import erc from './erc.png'
 import erc2 from './erc2.png'
 import tesla from './tes.png'
@@ -86,7 +86,7 @@ export {
   erc,
   erc2,
   tesla,
-  Honeybees,
+  
   amaya,
   linkto,
   chanak,
