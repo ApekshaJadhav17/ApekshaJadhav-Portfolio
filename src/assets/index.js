@@ -99,6 +99,7 @@ export {
   me2,
   logoAnimated,
   logo,
+  logo,
   backend,
   creator,
   mobile,
