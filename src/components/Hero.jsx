@@ -118,7 +118,7 @@ const Hero = () => {
               <button className='md:text-[18px] text-[14px] md:mt-10 mt-5 sm:p-2 p-1 rounded font-medium cursor-pointer ' style={buttonStyle}
                 onMouseEnter={handleMouseEnter}
                 onMouseLeave={handleMouseLeave}>
-                <a href='#' download={resume} style={{ display: 'flex', alignItems: 'center', textDecoration: 'none' }}>
+                <a href={resume} download={resume} style={{ display: 'flex', alignItems: 'center', textDecoration: 'none' }}>
                   Resume <img src={isHovered ? download1 : download} className='w-[12%] ml-2' alt='Download Icon' />
                 </a>
               </button>
@@ -142,7 +142,7 @@ const Hero = () => {
            video  */}
           <div className="flex flex-col items-center  lg:mt-40 md:mt-18 mt-10 lg:w-80  md:w-[50%] w-[50%] ">
             <video ref={videoRef} src={introV} className="rounded-full overflow-hidden" onClick={toggleVideo} onEnded={handleVideoEnded} />
-            {isPaused ? <p className='text-18 text-secondary  mt-5 cursor-pointer' onClick={toggleVideo}> Pause! </p> : <p className='text-18 text-secondary  mt-5 cursor-pointer' onClick={toggleVideo}> Play Me!</p>}
+            {isPaused ? <p className='text-18 text-secondary  mt-5 cursor-pointer' onClick={toggleVideo}> Pause! </p> : <p className='text-18 text-secondary  mt-5 cursor-pointer' onClick={toggleVideo}> Play!</p>}
           </div>
 
 

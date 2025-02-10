@@ -14,7 +14,7 @@ function App() {
   const Works = lazy(() => import('./components/Works'));
   const Skills = lazy(() => import('./components/Skills'));
   const Projects = lazy(() => import('./components/Projects'));
-  const Contact = lazy(() => import('./components/Contact'));
+  const Contact = lazy(() => import('./components/Contact')); 
 
 
   return (

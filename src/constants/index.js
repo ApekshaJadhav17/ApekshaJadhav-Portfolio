@@ -2,7 +2,10 @@ import {
   mobile,
   backend,
   web,
-  html, css, js, ts, react, redux, tailwind, bootstrap, node, mongo, api, figma, dart, sql, three, next
+  html, css, js, ts, react, redux, tailwind, bootstrap, node, mongo, api, figma, dart, sql, three, next,
+  dj,
+  fastApi,
+  postgres
 } from "../assets";
 
 export const navLinks = [
@@ -15,7 +18,7 @@ export const navLinks = [
     id: "about",
     title: "About",
   },
-  
+
   {
     id: "work",
     title: "Work",
@@ -40,22 +43,22 @@ export const ContactButton = [
 
 const introduction = [
   {
-    title: "What's my Superpower?",
-    answer: 'I harness the magic of React to bring websites to life. With every line of code, I sculpt user experiences that brings dreams to reality. My superpower? Transforming ideas into immersive, interactive web realities.',
+    title: "My Journey So Far",
+    answer: "Hi, I’m Apeksha Jadhav! I’m currently pursuing my Master’s in Computer Science at San Diego State University, California. With 1+ years of experience in software development, I specialize in React and building full-stack web and cross-platform mobile apps using modern technologies. I earned my BTech in Computer Science from MIT-ADT University, India, where I co-founded a smart parking management SaaS product, built an MVP, secured pre-seed funding, and won the Best Project Award at my university.",
+    icon: backend,
+  },
+  {
+    title: "What's My Superpower?",
+    answer: "My superpower lies in building robust, scalable, high-performance digital products from the ground up. I don’t just develop features—I architect solutions that are efficient, secure, and designed to scale. From designing resilient backend systems to ensuring smooth deployments and automation, I bring a holistic approach to software development. Whether it's streamlining workflows, optimizing infrastructure, or crafting seamless user experiences, I thrive on transforming complex challenges into impactful solutions.",
     icon: web,
   },
   {
-    title: "What keeps me up at night?",
-    answer: 'I am a dreamer of digital realms, a wanderer through the infinite landscapes of innovation. As the night unfolds, I am consumed by the vision of crafting products that transcend ordinary user experiences. I dive deep into the ocean of 3D web worlds, where ideas take shape and imagination knows no bounds',
+    title: "Something That's Not on My Resume!",
+    answer: "I don’t just build products—I think like an entrepreneur. I thrive on identifying gaps, conceptualizing solutions, and bringing ideas to life with a product-first mindset. I’m always drawn to solving real-world problems with technology and brainstorming the next big innovation. I love exploring emerging trends like AI-driven applications and immersive web experiences, constantly pushing the boundaries of what’s possible. For me, every project is an opportunity to create something impactful, scalable, and user-focused.",
     icon: mobile,
   },
-  {
-    title: "My Journey So far",
-    answer: 'I am a B.Tech CS Graduate, from MIT-ADT University. I specialize in software development, with a expertise in React. I create both web and mobile apps. I have successfully built and presented a funded prototype as PoC, earning recognition with the Best Project Award at my university. Additionally, I have completed two internships in frontend development.',
-    icon: backend,
-  },
-
 ];
+
 
 const technologies = [
   {
@@ -67,16 +70,6 @@ const technologies = [
     name: "CSS 3",
     icon: css,
   },
-
-  // {
-  //   name: "Bootstrap",
-  //   icon: bootstrap,
-  // },
-
-  // {
-  //   name: "Tailwind",
-  //   icon: tailwind,
-  // },
 
   {
     name: "JavaScript",
@@ -95,56 +88,31 @@ const technologies = [
   },
 
   {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
-
-  {
     name: "Next JS",
     icon: next
   },
-
-
- 
-
-
-  {
-    name: "Three JS",
-    icon: three,
-  },
-
-
+  
   {
     name: "Node JS",
-    icon: node, 
+    icon: node,
   },
-
-
+  {
+    name: "Django",
+    icon: dj,
+  },
+  {
+    name: "Fast Api",
+    icon: fastApi,
+  },
 
   {
     name: "MongoDB",
     icon: mongo,
   },
-
-  // {
-  //   name: "My Sql",
-  //   icon: sql, 
-  // },
   
- 
-  // {
-  //   name: "REST API",
-  //   icon: api,
-  // },
-
-  // {
-  //   name: "figma",
-  //   icon: figma,
-  // },
-
   {
-    name: "Flutter",
-    icon: dart,
+    name: "PostgreSql",
+    icon: postgres,
   },
 ];
 
@@ -157,16 +125,16 @@ const projects = [
     name: "Car Rent",
     description:
       "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
-    
+
   },
   {
     name: "p Rent",
     description:
       "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
-    
+
   },
-  
-  
+
+
 ];
 
 export { introduction, technologies, projects };

@@ -10,9 +10,10 @@ const ParkSmart = ({ openModal}) => {
 
     const psContent = {
         title: 'Park Smart',
+        link : 'https://github.com/ApekshaJadhav17',
         desc : 'ParkSmart is a cutting-edge smart parking project that leverages technology to revolutionize the parking experience. This innovative system combines advanced Computer Vision Models, IoT based QR Code Module, advanced algorithms to find nearest vacant parking spot, real-time Navigation, and much more to optimize parking management',
-        features: { 1:'Mobile and Web App for Drivers' , 2:'Navigation and Directions' , 3:'Parking Reservations'},
-        achievements: { 1:'Raised Funding from CRIEYA INNOVATIONS', 2:'Won Best Project Award of the Year 2023 at MIT-ADT University'},
+        features: { 1:'Mobile and Web App for Drivers', 2:'Navigation and Directions' , 3:'Parking Reservations'},
+        achievements: { 1:'Raised Funding from CRIEYA INNOVATIONS', 2:'Won Best Project Award of the Year 2023 at MIT-ADT University', 3:'Pre-Seed startup co-founded by me',},
         bgColor: bgColor
     }
 

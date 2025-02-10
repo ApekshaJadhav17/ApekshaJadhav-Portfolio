@@ -9,9 +9,10 @@ const Drums = ({ openModal }) => {
 
     const dkContent = {
         title: 'Drum Kit',
+        link: 'https://github.com/ApekshaJadhav17',
         desc: 'The Online Drum Kit Simulator is an innovative and interactive web-based project that enables music enthusiasts and aspiring drummers to experience the joy of playing the drums from the comfort of their own computer or mobile device. This project aims to provide an immersive and user-friendly platform for users to explore the world of drumming',
-        bgColor : bgColor,
-        features: {1: 'Key Press Recognition', 2: 'Virtual kit with realistic Sound'},
+        bgColor: bgColor,
+        features: { 1: 'Key Press Recognition', 2: 'Virtual kit with realistic Sound' },
 
         achievements: ''
     }

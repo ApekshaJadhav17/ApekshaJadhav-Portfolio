@@ -27,6 +27,7 @@ import github from './github.png'
 import insta from './insta.png'
 import download from './download.png'
 import download1 from './download1.png'
+import psCarousel from './psCarousel.png'
 
 
 import html from './html.png'
@@ -45,7 +46,7 @@ import api from './api.png'
 import sql from './sql.png'
 import next from './next.png'
 import three from './threejs.svg'
-import resume from './ApekshaJadhavResume-2023.pdf'
+import resume from './ApekshaJadhavResume-25.pdf'
 import introV from './introV.mp4'
 import me4 from './me4.png'
 import introme from './introme.mp4'
@@ -59,14 +60,26 @@ import d1 from './d1.png'
 import d2 from './d2.png'
 import d3 from './d3.png'
 import d4 from './d4.png'
+import sdsu1 from './SDSU1.jpg'
+import dj from './dj.png'
+import github1 from './github1.png'
+import postgres from './postgres.png'
+import fastApi from './fastApi.png'
+
 
 
 
 export {
+  github1,
+  postgres,
+  fastApi,
+  dj,
+  sdsu1,
   d1,
   d2,
   d3,
   d4,
+  psCarousel,
   hire1,
   hire2,
   psCard,

@@ -4,6 +4,7 @@ import ParkCar from './Project3dModel';
 import UdonMeal from './UdonMeal';
 import Drum3d from './Drum3d';
 import Project3dModel from './Project3dModel';
+import { github1 } from '../assets';
 
 const Modal = ({ closeModal, modalContent }) => {
 
@@ -19,9 +20,13 @@ const Modal = ({ closeModal, modalContent }) => {
             {modalContent.title}
           </h1>
 
+          <a className=' lg:text-[14px] md:text-[12px] text-[9px] text-start ml-8 mt-2  text-primary underline' href={modalContent.link} target="_blank" rel="noreferrer">
+            Github 
+          </a>
           <p className=' lg:text-[12px] md:text-[10px] text-[9px] text-start ml-8 mt-2  text-primary'>
             {modalContent.desc}
           </p>
+          
           {modalContent.title === 'Park Smart' && <p className=' lg:text-[12px] md:text-[10px] text-[9px]  text-start ml-8 mt-2  text-primary'>
             Features : <span> <br></br> &nbsp; {modalContent.features[1]} </span>
             <span> <br></br> &nbsp; {modalContent.features[2]} </span>
@@ -33,6 +38,7 @@ const Modal = ({ closeModal, modalContent }) => {
             <span> <br></br> &nbsp; {modalContent.achievements[2]} </span>
             <span> <br></br> &nbsp; {modalContent.achievements[3]} </span>
           </p>}
+
           {modalContent.title === 'Gericht Restaurant' && <p className=' lg:text-[12px] md:text-[10px] text-[9px]  text-start ml-8 mt-2  text-primary'>
             Features : <span> <br></br> &nbsp; {modalContent.features[1]} </span>
             <span> <br></br> &nbsp; {modalContent.features[2]} </span>
