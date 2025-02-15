@@ -31,7 +31,7 @@ const Drums = ({ openModal }) => {
                     <h1 className='text-[#EDEEEF] md:text-[50px] text-[40px] font-bold text-center'>
                         Drums Kit
                     </h1>
-                    <h3 className='text-[#080D1E] text-[16px] font-semibold text-center'>Premium Restaurant Landing Page</h3>
+                    <h3 className='text-[#080D1E] text-[16px] font-semibold text-center'>Drums Kit for Music Lovers</h3>
                     <div className='diagonal-fill '>
                         <h2 className='project-details text-[#080D1E] text-[19px] font-semibold text-center'>"Beat It Up"</h2>
                         <p className=' text-[#080D1E] text-[14px]  text-center'>Click to dive deeper</p>
